@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: solid black 1px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,6 +66,20 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+.navdiv {
+    width: 10%;
+}
+img.jumbo {
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 2%;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,7 +125,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +156,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box:nth-child(1){
+background-color: teal;
+}
+
+
+/* coding for about page */
+
+.abouttop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+}
+.blacklogo {
+    width: 50%;
+
+}
+nav {
+    width: 50%;
+    letter-spacing: 10px;
+    margin-left: 3%;
 }
